@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout Strony</title>
+    <style>
+        
+        .menu-figura {
+            position: relative;
+            margin: 10px auto;
+        }
+
+        #zielony_prostokat {
+            width: 89px;
+            height: 43px;
+            background-color: green;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        #niebieski_prostokat {
+            width: 89px;
+            height: 45px;
+            background-color: blue;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        #zolty_okrag {
+            width: 46px;
+            height: 46px;
+            background-color: yellow;
+            border-radius: 50%;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        #czerwony_trojkat {
+            width: 0;
+            height: 0;
+            border-left: 35px solid transparent;
+            border-right: 35px solid transparent;
+            border-bottom: 59px solid red;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+
+        #zielony_prostokat2 {
+            width: 46px;
+            height: 46px;
+            background-color: green;
+            opacity: 0.7;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    
+    <table width="65%" border="1" align="center">
+        <tr>
+            <td colspan="3" align="center">
+               <iframe scrolling="no" width="900" height="100" name="obszar_logo" src="logo_majer.html" border="0"></iframe>
+            </td>
+        </tr>
+        <tr>
+            <td width="18%" align="center">
+                <b>lewe menu</b>
+                <ul>
+                    <li><a href="https://zse.edu.gdansk.pl/" target="obszar_glowny">Strona ZSE</a></li>
+                    <li><a href="https://www.kuratorium.gda.pl/" target="obszar_glowny">Kuratorium</a></li>
+                    <li><a href="https://simple.wikipedia.org/" target="obszar_glowny">Simple Wikipedia</a></li>
+                    <li><a href="https://www.wikipedia.org/" target="obszar_glowny">Wikipedia</a></li>
+                    <li><a href="75dd36a9-a671-447d-b94b-40566f4bbdcc.mp4" target="obszar_glowny">Link do filmu</a></li>
+                </ul>
+            </td>
+            <td align="center">
+                <iframe width="650" height="420" name="obszar_glowny" src="glowny_majer.html" scrolling="yes" border="0"></iframe>
+            </td>
+            <td width="18%" align="center">
+                <b>prawe menu</b>
+                <div class="menu-figura">
+                    <a href="majer_zip" download>
+                        <div id="zielony_prostokat"></div>
+                    </a>
+                </div>
+                <div class="menu-figura">
+                    <a href="drugatabela_majer.html" target="obszar_glowny">
+                        <div id="niebieski_prostokat"></div>
+                    </a>
+                </div>
+                <div class="menu-figura">
+                    <a href="formularz_majer.html" target="obszar_glowny">
+                        <div id="zolty_okrag"></div>
+                    </a>
+                </div>
+                <div class="menu-figura">
+                    <a href="mailto:nikodem1234@outlook.com">
+                        <div id="czerwony_trojkat"></div>
+                    </a>
+                </div>
+                <div class="menu-figura">
+                    <a href="z1_z6_majer.html" target="obszar_glowny">
+                        <div id="zielony_prostokat2"></div>
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+               <iframe scrolling="no" width="900" height="120" name="obszar_stopka" src="stopka_majer.html" border="0"></iframe>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

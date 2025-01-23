@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dane Komputerowe</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 16px;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #008080; /* Turkusowe tło */
+            color: white;
+            font-weight: bold;
+        }
+        caption {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        tr:nth-child(odd) {
+            background-color: #b3e0ff; /* Jasnoniebieskie */
+        }
+        tr:nth-child(even) {
+            background-color: #ffffff; /* Białe */
+        }
+        td:first-child {
+            font-weight: bold;
+            color: red;
+        }
+        .aktywny {
+            background-color: #0099cc;
+            color: white;
+            font-weight: bold;
+        }
+        tfoot td {
+            background-color: #008080; /* Turkusowe tło */
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        p {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Dane Komputerowe – Majer Nikodem 2kg1</caption>
+        <thead>
+            <tr>
+                <th>Model karty graficznej</th>
+                <th>Taktowanie bazowe</th>
+                <th>Rozmiar pamięci</th>
+                <th>Szyna pamięci</th>
+                <th>Typ Chłodzenia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>RTX 3070</td>
+                <td>1500 MHz</td>
+                <td>8 GB</td>
+                <td>256-bit</td>
+                <td class="aktywny" rowspan="6">Aktywne</td>
+            </tr>
+            <tr>
+                <td>RTX 3080</td>
+                <td>1440 MHz</td>
+                <td>10 GB</td>
+                <td>320-bit</td>
+            </tr>
+            <tr>
+                <td>GTX 1660 Ti</td>
+                <td>1500 MHz</td>
+                <td>6 GB</td>
+                <td>192-bit</td>
+            </tr>
+            <tr>
+                <td>Radeon RX 6700 XT</td>
+                <td>2321 MHz</td>
+                <td>12 GB</td>
+                <td>192-bit</td>
+            </tr>
+            <tr>
+                <td>Radeon RX 5600 XT</td>
+                <td>1375 MHz</td>
+                <td>6 GB</td>
+                <td>192-bit</td>
+            </tr>
+            <tr>
+                <td>RTX 4090</td>
+                <td>2235 MHz</td>
+                <td>24 GB</td>
+                <td>384-bit</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Dane komputerowe</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Źródło: własne</p>
+</body>
+</html>
